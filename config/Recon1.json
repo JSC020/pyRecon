@@ -1,0 +1,17 @@
+{
+  "ReconciliationName": "test recon",
+  "AInputFilePath": ".\\report\\Broker_Trade1.csv",
+  "AInputFileCompareColumns": "Account1,Current1,Amount1,Qty1",
+  "BInputFilePath": ".\\report\\Broker_Trade2.xlsx",
+  "BInputFileCompareColumns": "Account2,Current2,Amount2,Qty2",
+  "OutputFilePath": ".\\report\\Recon_Result.xlsx",
+  "OutputFileColumns": "match_result,Trader_B1,Account1,Current1,Amount1,Qty1,Account2,Current2,Amount2,Qty2,Trader_B2",
+  "": [
+    {
+      "MatchRuleId": "1",
+      "MatchRuleName": "One2One",
+      "MatchRuleCriteria": "One2One"
+    },
+    {}
+  ]
+}
